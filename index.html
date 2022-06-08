@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Usuário</h1>
+    </header>
+    <nav><!--Menu-->
+        <ul>
+            <li><a href="./index.html">Cadastro</a></li>
+            <li><a href="./login.html">Login</a></li><!--Link para outra pagina-->
+            <li><a href="./list.html">Lista de Usuários</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Cadastro</h2>
+        <div class="div-erro">
+            Preencha o formulário corretamente!
+        </div>
+        <div class="div-certo">
+            Sua resposta foi registrada.
+        </div>
+        <div class="form">
+            <input type="text" id="nome" placeholder="Nome do usuário">
+            <input type="email" id="email" placeholder="E-mail do usuário">
+            <input type="password" id="senha" placeholder="Senha do usuário">
+            <input type="password" id="confirmar" placeholder="Confirmar senha">
+            <button type="button" id="enviar" onclick="addUsuario()">Cadastrar</button>
+        </div>
+
+    </div>
+    <footer>
+        <ul>
+            <li>Mercadinho do Senai</li>
+            <li>Floripa - SC</li>
+            <li>SC-401, 3730 - Saco Grande</li>
+        </ul>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

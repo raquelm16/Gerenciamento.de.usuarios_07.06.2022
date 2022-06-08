@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body onload="listUsuarios()">
+    <header>
+        <h1>Gerenciamento de Usuários</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Cadastro</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./list.html">Lista de Usuários</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Lista de Usuários</h2>
+        <div class="list">
+            <table>
+                <thead>
+                    <tr><!--Linha 1-->
+                        <th>Nome</th><!--Cabeçalho 1-->
+                        <th>E-mail</th><!--Cabeçalho 2-->
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table-linha">
+                        <!-- <td> Nao fica no meio nem em negrito-->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>Mercadinho do Senai</li>
+            <li>Floripa - SC</li>
+            <li>SC-401, 3730 - Saco Grande</li>
+        </ul>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
